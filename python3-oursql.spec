@@ -9,6 +9,7 @@ Group:		Libraries/Python
 Source0:	https://launchpad.net/oursql/py3k/py3k-0.9.3/+download/%{module}-%{version}.zip
 # Source0-md5:	1c19d9ecbfc96e071f6da463a0fc9109
 URL:		http://launchpad.net/oursql/py3k/
+BuildRequires:	mysql-devel
 BuildRequires:	python3-2to3
 BuildRequires:	python3-Cython
 BuildRequires:	python3-devel
