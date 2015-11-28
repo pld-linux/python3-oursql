@@ -33,10 +33,7 @@ Python 3.x version.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python3} setup.py \
-	install \
-	--root=$RPM_BUILD_ROOT \
-	--optimize=2
+%py3_install
 
 %clean
 rm -rf $RPM_BUILD_ROOT
